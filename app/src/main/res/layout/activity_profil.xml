@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.singpaulee.tutorialsharedpreference.ProfilActivity">
+
+    <!--TODO 21 Atur Layout Profil-->
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/medt_username"
+        style="@style/CustomEdittext"
+        app:met_floatingLabelText="@string/username"
+        android:text="@string/username"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/medt_telp"
+        style="@style/CustomEdittext"
+        app:met_floatingLabelText="@string/telp"
+        android:text="@string/telp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/medt_alamat"
+        style="@style/CustomEdittext"
+        app:met_floatingLabelText="@string/alamat"
+        android:text="@string/alamat"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/medt_tanggal_lahir"
+        style="@style/CustomEdittext"
+        app:met_floatingLabelText="@string/tanggal_lahir"
+        android:text="@string/tanggal_lahir"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/medt_bahasa"
+        style="@style/CustomEdittext"
+        app:met_floatingLabelText="@string/bahasa"
+        android:text="@string/bahasa" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/simpan"/>
+
+
+</LinearLayout>

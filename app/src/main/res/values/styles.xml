@@ -1,0 +1,32 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--TODO 2 Set Style-->
+    <style name="CustomEdittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="met_clearButton">true</item>
+        <item name="met_floatingLabelTextSize">16sp</item>
+        <item name="met_floatingLabel">highlight</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <!--TODO 15 Set Style untuk textView-->
+    <style name="CustomTextview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

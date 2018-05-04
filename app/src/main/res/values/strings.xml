@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TutorialSharedPreference</string>
+
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="masukkan_password">Masukkan Password</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="telp">Telp</string>
+    <string name="alamat">Alamat</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+
+    <string name="masuk">MASUK</string>
+    <string name="profil">PROFIL</string>
+    <string name="keluar">Keluar</string>
+    <string name="simpan">SIMPAN</string>
+
+    <string name="bahasa">Bahasa</string>
+</resources>

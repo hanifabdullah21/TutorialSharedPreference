@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO 25 Tambahkan resource file string.xml-->
+    <string name="app_name">SinauSharedPreference</string>
+
+    <string name="masukkan_username">Lebokke Username</string>
+    <string name="masukkan_password">Lebokke Password</string>
+
+    <string name="username">Jeneng</string>
+    <string name="password">Kuncen</string>
+    <string name="telp">Telp</string>
+    <string name="alamat">Dalan Omahmu</string>
+    <string name="tanggal_lahir">Weton</string>
+
+    <string name="masuk">MELBU</string>
+    <string name="profil">PROFIL</string>
+    <string name="keluar">METU</string>
+    <string name="simpan">SIMPEN</string>
+
+    <string name="bahasa">Boso</string>
+</resources>
